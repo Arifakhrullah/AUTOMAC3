@@ -18,7 +18,7 @@
                 <p style="text-align: justify; line-height: 3rem;"><b>AMSB</b> provides products and services in Electronic Security Systems (ESS) including but not limited to security consultancy, design, supply, installation and maintenance for:
                 </p>
                 <div class="container-fluid">
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/CCTV.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -26,7 +26,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/ACS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Alarm%20System.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/PIDS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Audio%20Warning%20System.jpeg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Optima%20Arm%20Barrier.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Monitor.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -75,16 +75,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Optic.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Commercial and Industrial audio, video, data and Ethernet Communications Products</p>
-                                <p class="text-muted text-center">i.e Fiber Optic, Wireless and Copper Media</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/RFID.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -92,7 +84,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Anti%20Climb%20Fence.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -100,7 +92,7 @@
                             </div>
                         </div>
                     </div>                
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/UVSS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -108,7 +100,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Gantry%20Vehicle%20X-ray%20machine.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
@@ -116,11 +108,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="card">
                             <div class="card-body">
                                 <img src="assets/img/services/Xray.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
                                 <p class="card-text text-center">X-ray Machine Repair Works</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/img/services/Optic.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
+                                <p class="card-text text-center">Commercial and Industrial audio, video, data and Ethernet Communications Products</p>
                             </div>
                         </div>
                     </div>

@@ -1,142 +1,57 @@
 <?php include("header.php"); ?> 
     <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;">
         <div class="row">
-            <div class="col-md-12" id="service1" style="line-height: 3rem;">
-                <h1 id="header__black">Administration Details</h1>
+            <div class="col-md-12" id="service1" style="line-height: 2.5rem;">
+                <h1 id="header__black" class="text-center" style="padding-top: 40px;">Administration Details</h1>
                 <dl class="row">
-                    <p class="col-md-2"><b>Training</b></p>
-                    <p class="col-md-10">Training of the workforce is laid down in Company training procedures. To be able to manage the project/services efficiently and safely, proper manning is of utmost importance. Our experience in manpower selection over the years allow us to pick personnel who are sufficiently trained and experienced to do their work safely and supervised by experienced personnel.</p>
-                    <hr>
-                    <p class="col-md-2"><b>Streamlining Expertise</b></p>
-                    <p class="col-md-10">The Clients expect the services with standardized operational characteristics. Our Management and Operational Management team over the past years has acquired a strong expertise allowing us to streamline the standards.</p>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Training</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Training</b></p>
+                    <p class="col-md-9">Training of the workforce is laid down in Company training procedures. To be able to manage the project/services efficiently and safely, proper manning is of utmost importance. Our experience in manpower selection over the years allow us to pick personnel who are sufficiently trained and experienced to do their work safely and supervised by experienced personnel.</p>
                     <br>
-                    <p class="col-md-2"><b>Safety Milestone</b></p>
-                    <p class="col-md-10">Managing Health, Safety and Environment is our top priority in our daily activities, with our continuous commitment, awareness and professionalism.</p>
-
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Streamlining Expertise</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Streamlining Expertise</b></p>
+                    <p class="col-md-9">The Clients expect the services with standardized operational characteristics. Our Management and Operational Management team over the past years has acquired a strong expertise allowing us to streamline the standards.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Safety Milestone</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Safety Milestone</b></p>
+                    <p class="col-md-9">Managing Health, Safety and Environment is our top priority in our daily activities, with our continuous commitment, awareness and professionalism.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>HSE Policy Manual</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>HSE Policy Manual</b></p>
+                    <p class="col-md-9">Managing the safe working practices for the various activities associated with our main activities is 
+                    laid out in the manual. It describes not only the Company’s approved safe working practices but also other arrangements to control hazards associated with the work.
+                    .</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>HSE Work Plan</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>HSE Work Plan</b></p>
+                    <p class="col-md-9">Based on the years of our experience, this HSE Work Plan is designed to suit our activities in the Oil and Gas industry. This plan describes our HSE system and yearly targets set by the Company. It aims to ensure the health and safety of the persons involved and to protect the environment and the assets.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Safety Audit and Review</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Safety Audit and Review</b></p>
+                    <p class="col-md-9">This is an essential feature of managing safety that ensures the whole system is functioning and provides a vehicle for improvements.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Safety Inspection</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Safety Inspection</b></p>
+                    <p class="col-md-9">The Management team carries out safety inspections with the relevant checklist on monthly basis to examine maintenance standards, employee involvement, identity hazards, work practices and housekeeping levels, health and sanitary and check that work are undertaken in accordance with the company code of practice or procedures. Findings are recorded, documented, and are circulated to relevant parties for immediate follow-up.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Safety Promotion</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Safety Promotion</b></p>
+                    <p class="col-md-9">Our HSE Department has a built-in Safety Award Certificates for our personnel’s contribution to accident prevention. We welcome and value any suggestions from our employees in the promotion of high awareness of the safe operating procedures in the projects.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Motivation and Communication</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Motivation and Communication</b></p>
+                    <p class="col-md-9">The Management team keeps track of the activity progress and receives daily reports. Our Representative sees the clients Representative to discuss the daily task, aiming at safe and efficient operation.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>On The Job Meeting</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>On The Job Meeting</b></p>
+                    <p class="col-md-9">The Management continuously emphasized that no task should be carried out if it is not safe to do so. As soon as an unsafe situation occurs, or if any employee has questions regarding the operation, the situation should be rectified immediately. An employee may request an on the job meeting.</p>
+                    <br>
+                    <p class="col-md-3 visible-lg visible-md visible-sm text-right"><b>Hazardous Substances Register</b></p>
+                    <p class="col-md-3 visible-xs text-left"><b>Hazardous Substances Register</b></p>
+                    <p class="col-md-9">Managing hazards on site by keeping an up-to-date register of all the hazardous substances used.</p>
+                    <br>
+                    
                 </dl>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-md-12" id="service2">
-                <h1 id="header__black">System Integration and Consultancy &#40;ICT and ESS&#41;</h1>
-                <p style="text-align: justify; line-height: 3rem;"><b>AMSB</b> provides products and services in Electronic Security Systems (ESS) including but not limited to security consultancy, design, supply, installation and maintenance for:
-                </p>
-                <div class="container-fluid">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/CCTV.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Video Surveillance System &#40;CCTVs&#41;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/ACS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Access Control System</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Alarm%20System.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Alarm System</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/PIDS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Perimeter Intrusion Detection Systems</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Audio%20Warning%20System.jpeg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Audio Warning System</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Optima%20Arm%20Barrier.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Intruder Deterrent Installations</p>
-                                <p class="text-muted text-center">i.e Road blockers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Monitor.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Commercial and Industrial Display Monitors</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Optic.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Commercial and Industrial audio, video, data and Ethernet Communications Products</p>
-                                <p class="text-muted text-center">i.e Fiber Optic, Wireless and Copper Media</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/RFID.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">RFID Door Locks and Enterprise Wifi Solution</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Anti%20Climb%20Fence.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Anti-climb Fences</p>
-                            </div>
-                        </div>
-                    </div>                
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/UVSS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Under Vehicle Surveillance System </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Gantry%20Vehicle%20X-ray%20machine.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Gantry Vehicle X-ray Machine</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Xray.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">X-ray Machine Repair Works</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <p style="text-align: justify; line-height: 3rem;">We have provided security solutions to several government facilities in Negara Brunei Darussalam, and an accredited vendor of the Internal Security Department of the Brunei Government.   
-                    <br>
-                    <b>AMSB</b> is supporting all the IT requirements and services required by most of the members of the Adinin Group of Companies and offers the services to third-party Clients. Services include setting-up Active Directory setup and administration, systems development, network design, installation (organized LAN structure),maintenance and troubleshooting, and  other desktop support services. We are accredited (ICTAB Class 2) by the Authority for Info-communications, Technology Industry of Brunei Darussalam (AITI).
-                    </p>
-                </div>
             </div>
         </div>
       </div>

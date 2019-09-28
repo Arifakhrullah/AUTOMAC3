@@ -24,7 +24,7 @@
     <meta name="author" content="Arif Fakhrullah">
 
     <!-- Browser TAB Icon -->
-    <link rel="icon" href="assets/img/favicon-alt.png">
+    <link rel="icon" href="assets/logo/favicon.ico">
 
     <title>AUTOMAC MULTIRESOURCES</title>
 
@@ -112,7 +112,10 @@
                         <a class="nav-link" href="administration.php">Administration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="about.php#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php#contact">Contact Us</a>
                     </li>
                 </ul>
 
