@@ -2,13 +2,18 @@
     <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;">
         <div class="row">
             <div class="col-md-12" id="service1" style="line-height: 3rem;">
-                <h1 id="header__black">Provision of Resource Services and Personnel Secondment</h1>
-                <p style="text-align: justify;">We have provided Brunei Shell Petroleum Co. Sdn. Bhd. some high-profile professionals such as Supply Chain Management Consultant, Petro physicists, Drilling Engineers/Consultants, Well Completion Engineers/Consultants, QA/QC Engineers, ME&amp;I Engineers, Instrument / Electrical / Oilfield Technicians, SAP-HR Consultants, Bruneian SAP Data Converters/Coders, SAP Application Developers, Bruneians Business Support Personnel, Quantity Surveyors, etc. We have a databank of Business Management Consultants, and in the technical field, Oil &amp; Gas Sub-Surface Specialists in Petrophysics, Geology, Petroleum Technology, Oil &amp; Gas Reservoir, etc., HSE, Drillers, Welding Inspectors, Painting Inspectors, QA/QC, NDT Inspectors, Abseiling Technicians, etc.
-                We are also currently supplying technical and professional personnel to Dowell Schlumberger (Eastern) Inc. in Brunei Darussalam, majority of which are Bruneians. Positions supplied are SONDE Technicians, Wireline Operators / Helpers, Logistics Personnel, Electronics / Mechanical Technicians, Computer Operators, HSE Administrator / Officers, as well as general positions for Office Administration. 
-                In the telecommunications industry, we provide resource services to Huawei Technologies (B) Sdn Bhd for the following positions: Bruneian Supply Chain Representative, Bruneian HR and Admin Specialist, Datacom Engineers, Telecom CS/RAN Engineers, Telecom Software Engineers, and Telecom PS Engineers, Wireless Engineers, Product Engineer, Reporting Engineer, Project Manager, Service Solution Representative, Project Coordinators, Radio Frequency Engineer, and Document Controller. 
-                For those client-selected expatriates intended to be employed in Brunei, we have the Brunei Labour / Immigration quota to sponsor their employment. Given the Job Specifications, all logistical support will be placed in motion.
+                <h1 id="header__black">Administration Details</h1>
+                <dl class="row">
+                    <p class="col-md-2"><b>Training</b></p>
+                    <p class="col-md-10">Training of the workforce is laid down in Company training procedures. To be able to manage the project/services efficiently and safely, proper manning is of utmost importance. Our experience in manpower selection over the years allow us to pick personnel who are sufficiently trained and experienced to do their work safely and supervised by experienced personnel.</p>
+                    <hr>
+                    <p class="col-md-2"><b>Streamlining Expertise</b></p>
+                    <p class="col-md-10">The Clients expect the services with standardized operational characteristics. Our Management and Operational Management team over the past years has acquired a strong expertise allowing us to streamline the standards.</p>
+                    <br>
+                    <p class="col-md-2"><b>Safety Milestone</b></p>
+                    <p class="col-md-10">Managing Health, Safety and Environment is our top priority in our daily activities, with our continuous commitment, awareness and professionalism.</p>
 
-                </p>
+                </dl>
             </div>
         </div>
         <hr>
