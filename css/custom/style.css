@@ -1,3 +1,5 @@
+/*  #657ab3; blue automac*/
+
 body::-webkit-scrollbar {
     width: 0.7rem;
 }
@@ -72,9 +74,6 @@ body, html {
 }
 */
 
-#logo {
-/*    border: 1px solid blue;*/
-}
 
 .purpose {
 /*    letter-spacing: 0.5px;*/
@@ -1142,13 +1141,23 @@ a.shop-div:hover{
     line-height: 2rem;
 }
 
+#product_selection .card,
 #service2 .card {
     margin-bottom: 1rem;
-/*    border: 1px solid red;*/
     height: 23rem;
 }
 
+#service2 .card-body:hover {
+    box-shadow: 0 0 7px #657ab3;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
 
+#service1 p.col-md-3{
+    color: #657ab3;
+    font-weight: 900;
+}
 
-
-
+#service1 p.col-md-9{
+    text-align: justify;
+}

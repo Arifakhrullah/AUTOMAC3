@@ -7,7 +7,7 @@
                     </script>");    
             }
         ?>
-        <div class="container">
+        <div class="container wow fadeInUp">
             <div class="row">
 <!--                <hr class="gold-line">-->
                 <h5 class="text-center text__gold">&copy; ALYA Fashion &amp; Design By Alia Alli <br> &bull; 2018 - <?php echo date("Y"); ?> &bull;</h5>

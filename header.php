@@ -103,13 +103,16 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.php">Products</a>
+                        <a class="nav-link" href="product_selection.php">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="administration.php">Administration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ventures.php">Company Venture</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php#about">About</a>
