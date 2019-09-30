@@ -3,7 +3,7 @@
 
      $username = "root";
      $password = "";
-     $db = "alya_db";
+     $db = "automac_db";
 
 //    $username = "u566597010_root";
 //    $password = "alyadesign";

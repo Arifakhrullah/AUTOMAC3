@@ -115,7 +115,7 @@
                         <a class="nav-link" href="ventures.php">Company Venture</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php#about">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php#contact">Contact Us</a>

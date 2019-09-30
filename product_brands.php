@@ -39,11 +39,11 @@
                             <ul>
                                 <li class="active" data-filter="*">All Product</li>
                                 <?php
-                                    $query = "SELECT * FROM categories";
+                                    $query = "SELECT * FROM brands";
                                     $run_query = mysqli_query($con, $query) or die(mysqli_error($con));
 
                                     foreach($run_query as $class){
-                                        echo '<li data-filter=".'.$class['category_id'].'">'.$class['category_name'].'</li>';
+                                        echo '<li data-filter=".'.$class['brand_name'].'">'.$class['brand_name'].'</li>';
                                     }
                                 ?>
                             </ul>
@@ -61,7 +61,7 @@
                                     foreach($run_query as $product){
                                         echo '
                                         <a href="product.php?id='.$product['product_id'].'" class="shop-div text__gold">
-                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow fadeIn item '.$product['product_category'].'" data-wow-delay="0.2s">
+                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow fadeIn item '.$product['product_brand'].'" data-wow-delay="0.2s">
                                             ';
 
                                             $product_id = $product['product_id'];
@@ -75,10 +75,10 @@
 
                                             }
                                         echo '
-                                                  <img class="img-responsive" src="assets/img/products/'.$product['product_img'].'" style="width: 100%;" alt="image unavailable" />
+                                                  
                                                   <div class="clothing-label">
                                                       <h5>'.$product['product_name'].'</h5>
-                                                      <p>BND '.$product['product_price'].'</p>
+                                                      <h5>'.$product['product_brand'].'</h5>
                                                   </div>
                                             </div>
                                         </a>';
