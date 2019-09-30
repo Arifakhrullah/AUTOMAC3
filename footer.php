@@ -7,14 +7,12 @@
                     </script>");    
             }
         ?>
-        <div class="container wow fadeInUp">
+        <div class="container wow fadeInUp" style="background-color: #657ab3; margin-left: 0; margin-right:0; width: 100%; margin-top: 30px;">
             <div class="row">
 <!--                <hr class="gold-line">-->
-                <h5 class="text-center text__gold">&copy; ALYA Fashion &amp; Design By Alia Alli <br> &bull; 2018 - <?php echo date("Y"); ?> &bull;</h5>
+                <h6 class="text-center text__black">&copy; 2019 @ All rights reserved by <br><b>AUTOMAC MULTIRESOURCES</b></h6>
                 <div class="text-center center-block">
-                    <ul class="social-network social-circle">
-                            <li><a href="https://www.instagram.com/alya" class="icoInstagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
+                    <img src="assets/logo/logo%20original.png" width="100px;">
                 </div>
             </div>
         </div>

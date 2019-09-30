@@ -10,7 +10,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #c6a903;
+  background-color: #41558b;
   outline: 1px solid #0080ff;
 }
 
@@ -91,9 +91,11 @@ body, html {
     color: #000000;
 }
 
+/*
 .text__gold {
     color: #c6a903;
 }
+*/
 
 .text__black {
     color: #000000;
@@ -361,8 +363,8 @@ font-family: 'Pacifico', cursive;
 }
 
 .clothing-menu .active {
-    color: black;
-    background-color: yellow;
+    color: #ffffff;
+    background-color: #657ab3;
     border-radius: 20px;
     transition: all .1s ease;
 }
@@ -401,10 +403,12 @@ font-family: 'Pacifico', cursive;
     margin-right: 1%;
 }
 
+/*
 .clothing-label p.category {
     color: #8d834c;
-/*    letter-spacing: 0.1rem;*/
+    letter-spacing: 0.1rem;
 }
+*/
 
 .recent-item .item img-responsive {
     object-fit: cover;
@@ -415,6 +419,7 @@ font-family: 'Pacifico', cursive;
     object-fit: cover;
 }
 
+/*
 .portfolio{
     background:url(assets/images/portfoliobg.jpg) center top no-repeat;
     -moz-background-size: cover;
@@ -424,6 +429,7 @@ font-family: 'Pacifico', cursive;
     width: 100%;
     overflow: hidden;
 }
+*/
 
 .portfolio_content{
     padding-bottom:120px;
@@ -829,7 +835,8 @@ nav.shrink .search_icon {
 
 a.shop-div:hover{
     text-decoration: none;
-    color: #c6a903;
+    color: #000000;
+    border: 1px solid red;
 }
 
 .product_name {
@@ -870,12 +877,9 @@ a.shop-div:hover{
 
 }
 
-.suggestion img:hover {
-    border-color: #e5e5e5 #dbdbdb #d2d2d2;
-}
-
 @media only screen
-    and (max-width:800px) {
+    and (max-width:768px)
+    and (min-width:320px){
 
     html, body {
         height: 100%;
@@ -1123,6 +1127,11 @@ a.shop-div:hover{
         font-weight: 900;
         font-size: 3.5rem;
     }
+    
+    .purpose {
+        word-spacing: 1px;
+        line-height: 2rem;
+    }
         
 }
 
@@ -1160,4 +1169,17 @@ a.shop-div:hover{
 
 #service1 p.col-md-9{
     text-align: justify;
+}
+
+.clothing-item {
+    color:  black;
+}
+
+.clothing-item .item:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.29);
+    transition: all 0.5s ease;
+}
+
+.clothing-item h3 {
+    margin-top: 15%;
 }

@@ -1,5 +1,5 @@
 <?php include("header.php"); ?> 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide wow fadeInUp" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -10,15 +10,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="assets/banner/Anviz.png" alt="Los Angeles" style="width:100%;">
+        <img src="assets/banner/Anviz.png" alt="Anviz" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="assets/banner/Arm%20barrier.jpg" alt="Chicago" style="width:100%;">
+        <img src="assets/banner/Senstar.png" alt="Senstar" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="assets/banner/Anviz.png" alt="New york" style="width:100%;">
+        <img src="assets/banner/Mikrotik.png" alt="Mikrotik" style="width:100%;">
       </div>
     </div>
 
@@ -42,6 +42,8 @@
                 We believe in the principle by which we are guided that doing what is ethically correct for employees, employers, and clients, is the only way to create a positive and a win / win situation in the long term.
                 </p>
             </div>
+            <br>
+            <hr>
             <br>
             <div class="col-md-12">
                 <h1 id="header__black" class="text-center">OUR SERVICES</h1>

@@ -27,139 +27,26 @@
                 <p style="text-align: justify; line-height: 3rem;"><b>AMSB</b> provides products and services in Electronic Security Systems (ESS) including but not limited to security consultancy, design, supply, installation and maintenance for:
                 </p>
                 <div class="container-fluid">
+                    <?php
+                        $query = "SELECT * FROM services ORDER BY service_id";
+                        $run_query = mysqli_query($con, $query) or die(mysqli_error($con));
+
+                        $num_rows = mysqli_num_rows($run_query);
                     
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=CCTV">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/img/services/CCTV.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                    <p class="card-text text-center">Video Surveillance System &#40;CCTVs&#41;</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=ACS">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/ACS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Access Control System</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=AS">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Alarm%20System.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Alarm System</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=PIDS">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/PIDS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Perimeter Intrusion Detection System</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=AWS">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Audio%20Warning%20System.jpeg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Audio Warning System</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=IDI">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Optima%20Arm%20Barrier.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Intruder Deterrent Installations</p>
-                                <p class="text-muted text-center">i.e Road blockers</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=Monitors">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Monitor.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Commercial and Industrial Display Monitors</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
+                        foreach($run_query as $service){
+                            echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <a href="product_brands.php?id='.$service['service_nameShort'].'">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img src="assets/img/services/'.$service['service_img'].'.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
+                                                <p class="card-text text-center">'.$service['service_name'].'</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>';
+                        }
                     
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=RFID">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/RFID.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">RFID Door Locks and Enterprise Wifi Solution</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=ACF">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Anti%20Climb%20Fence.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Anti-climb Fences</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>                
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=UVSS">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/UVSS.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Under Vehicle Surveillance System</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=GVXM">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Gantry%20Vehicle%20X-ray%20machine.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Gantry Vehicle X-ray Machine</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=Xray">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Xray.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">X-ray Machine Repair Works</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                        <a href="product_brands.php?id=Communication">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/img/services/Optic.jpg" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                <p class="card-text text-center">Commercial and Industrial audio, video, data and Ethernet Communications Products</p>
-                            </div>
-                        </div>
-                        </a>
-                    </div>
+                    ?>
                 </div>
                 <hr>
                 <div class="row">
