@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-md-8">
                     <h1 id="header__black" style="line-height: 25px; padding-top: 50px;">about<br><span style="color: #657ab3;">Automac Multiresources</span></h1>
-                    <p style="text-align: justify;"><b>Automac Multiresources Sdn. Bhd. (AMSB)</b> is a Bumiputra Company, acquired in 1983 with a humble beginning of providing blasting &amp; painting services in the oil &amp; gas sector, particularly in BLNG. AMSB is a member of Adinin Group of Companies
+                    <p style="text-align: justify;"><b>Automac Multiresources Sdn. Bhd. (AMSB)</b> is a Bumiputra Company, acquired in 1983 with a humble beginning of providing blasting &amp; painting services in the oil &amp; gas sector, particularly in BLNG. AMSB is a member of <a href="http://www.adinin.com/home.php" target="_blank"><u>Adinin Group of Companies</u></a>.
                     </p>
                     <hr>
                     <div class="row">

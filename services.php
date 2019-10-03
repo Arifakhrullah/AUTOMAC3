@@ -52,7 +52,7 @@
                 <div class="row">
                     <p style="text-align: justify; line-height: 3rem;">We have provided security solutions to several government facilities in Negara Brunei Darussalam, and an accredited vendor of the Internal Security Department of the Brunei Government.   
                     <br><br>
-                    <b>AMSB</b> is supporting all the IT requirements and services required by most of the members of the Adinin Group of Companies and offers the services to third-party Clients. Services include setting-up Active Directory setup and administration, systems development, network design, installation (organized LAN structure),maintenance and troubleshooting, and  other desktop support services. We are accredited (ICTAB Class 2) by the Authority for Info-communications, Technology Industry of Brunei Darussalam (AITI).
+                    <b>AMSB</b> is supporting all the IT requirements and services required by most of the members of the <a href="http://www.adinin.com/home.php" target="_blank"><u>Adinin Group of Companies</u></a> and offers the services to third-party Clients. Services include setting-up Active Directory setup and administration, systems development, network design, installation (organized LAN structure),maintenance and troubleshooting, and  other desktop support services. We are accredited (ICTAB Class 2) by the Authority for Info-communications, Technology Industry of Brunei Darussalam (AITI).
                     </p>
                 </div>
             </div>
