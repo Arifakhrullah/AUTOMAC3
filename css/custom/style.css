@@ -78,7 +78,8 @@ body, html {
 .purpose {
 /*    letter-spacing: 0.5px;*/
     word-spacing: 1px;
-    line-height: 4rem;
+    line-height: 3rem;
+    text-align: justify;
 }
 
 #header__blue{
@@ -1130,7 +1131,7 @@ a.shop-div:hover{
     
     .purpose {
         word-spacing: 1px;
-        line-height: 2rem;
+        line-height: 2.2rem;
     }
         
 }
@@ -1183,3 +1184,4 @@ a.shop-div:hover{
 .clothing-item h3 {
     margin-top: 15%;
 }
+
