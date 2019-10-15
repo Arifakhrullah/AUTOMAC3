@@ -1,15 +1,16 @@
-
-        <h4 class="text-center">Admin login</h4>
-        <p class="text-center">Please enter your username and password</p>
+<?php include("header.php"); ?>
+    <div class="container wow fadeInUp" style="padding-left: 20%; padding-right: 20%; padding-top: 30px;">
+        <h2 class="text-center">Admin login</h2>
+        <p class="text-center text-muted">Please enter administrator password</p>
         <form method="POST">
             <div class="form-group">
-                <input type="text" placeholder="Username" name="username" class="form-control" id="username">
+                <input type="hidden" value="Admin" hidden name="username" class="form-control" id="username" style="background-color: transparent; border: 0; box-shadow: none;">
             </div>
             <div class="form-group">
                 <input type="password" placeholder="Password" name="password" class="form-control" id="password">
             </div>
             <hr>
-            <button type="submit" name="login" class="btn btn-default btn-block">Login</button>
+            <button type="submit" name="login" class="btn btn-default">Login</button>
 
         </form>
         <?php
@@ -42,3 +43,5 @@
 
 
         ?>
+</div>
+<?php include("footer.php"); ?>

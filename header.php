@@ -12,6 +12,15 @@
             </script>");
     }
 ?>
+<!---
+
+I see you have opened page source :) hello! 
+
+Welcome to AUTOMAC MULTIRESOURCES website. 
+Feel free to look around our products and services we offer, thank you!
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -20,13 +29,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <meta name="description" content="ALY.A, a fashion & design online gallery by Aliazuraini">
-    <meta name="author" content="Arif Fakhrullah">
+    <meta name="description" content="AUTOMAC MULTIRESOURCES">
+    <meta name="author" content="Ariffakhrullah31@gmail.com, 8876629">
 
     <!-- Browser TAB Icon -->
     <link rel="icon" href="assets/logo/favicon.ico">
 
-    <title>AUTOMAC MULTIRESOURCES</title>
+    <title>Automac Multiresources</title>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -83,11 +92,12 @@
                 <?php
                     if(!isset($_GET['admin']) || !isset($_SESSION['user_name'])){
                         echo '<a class="navbar-brand" id="logo" style="padding: 0;" href="index.php">
-                                    <img class="img-responsive" style="height: 3.5em; margin: 0;" src="assets/logo/logo.png">
-
-                            </a>';
+                                    <img class="img-responsive" style="height: 3.5em; margin: 0;" src="assets/logo/logo.png"></a>';
                     } else {
-                        echo '<a class="navbar-brand-admin" id="logo" href="admin.php?admin=1">Admin</a>';
+                        echo '<a class="navbar-brand" id="logo" style="padding: 0;" href="index.php">
+                                <img class="img-responsive" style="height: 3.5em; margin-right: 15px;" src="assets/logo/logo.png">
+                              </a>
+                              <a class="navbar-brand" id="logo" href="admin.php?admin=1" style="padding-top: 20px;">Admin Dashboard</a>';
                     }
 
                 ?>
@@ -132,12 +142,19 @@
                         </div>
                     </li>
                     <li class="nav-signin">
-                        <a class="nav-link" data-target="#signinModal" data-toggle="modal">Sign In</a>
+                        <a class="nav-link" href="login.php">Sign In</a>
+<!--                        <a class="nav-link" data-target="#signinModal" data-toggle="modal">Sign In</a>-->
                     </li>
                 </ul>
                 <?php
                     } else {
                         echo '<ul class="nav navbar-nav navbar-right">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="admin.php?admin=1">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin_services.php?admin=1">Services</a>
+                                </li>
                                 <li class="nav-signin"><a href="logout.php">Log Out</a></li>
                             </ul>';
                     }

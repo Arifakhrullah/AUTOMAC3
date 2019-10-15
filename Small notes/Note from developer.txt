@@ -1,0 +1,31 @@
+===================
+Note from Developer
+=================== 
+
+Sorry if the CSS is a bit tedious, as this project is based on my first independant completed project for a small business that failed to
+took off in Dec2018.
+
+You can reach me through my email address Ariffakhrullah31@gmail.com or +673 8876629 if you need my service. Thank you.
+
+----------------------
+------ Database ------
+----------------------
+The website currently *stores* its data such as the Product name, brands, image name, etc 
+in the SQL database, which can be found /database/dbconfig.php file. 
+
+----------------------
+-- Ability to CRUD? --
+----------------------
+No, the website at its current state does not have any CRUD implemented as time were short during
+development. But there are data in the database, which were inserted MANUALLY in the phpmyadmin.
+
+Why? to make the coding shorter to DISPLAY all products and services to avoid repetition of coding (see services.php)
+
+----------------------
+-- Homepage banners --
+----------------------
+The banners in the homepage carousels size are 1000x250, just in case you wanted to add more banners and want consistent size.
+
+
+
+

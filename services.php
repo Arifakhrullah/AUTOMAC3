@@ -38,7 +38,7 @@
                                     <a href="product_brands.php?id='.$service['service_nameShort'].'">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img src="assets/img/services/'.$service['service_img'].'.png" class="card-img-top img-responsive" alt="..." style="width: 100%;">
+                                                <img src="assets/img/services/'.$service['service_img'].'" class="card-img-top img-responsive" alt="..." style="width: 100%;">
                                                 <p class="card-text text-center">'.$service['service_name'].'</p>
                                             </div>
                                         </div>

@@ -7,10 +7,10 @@
                     </script>");    
             }
         ?>
-        <div class="container wow fadeInUp" style="background-color: #657ab3; margin-left: 0; margin-right:0; width: 100%; margin-top: 30px;">
+        <div class="container wow fadeInUp" style="background-color: #657ab3; color: #ffffff; margin-left: 0; margin-right:0; width: 100%; margin-top: 30px;">
             <div class="row">
 <!--                <hr class="gold-line">-->
-                <h6 class="text-center text__black">&copy; 2019 @ All rights reserved by <br><b>AUTOMAC MULTIRESOURCES</b></h6>
+                <h6 class="text-center" style="line-height: 16px;">Copyright &copy; 2019 AUTOMAC MULTIRESOURCES, All rights reserved<br><a href="mailto:ariffakhrullah31@gmail.com" title="Click me to say hi to the Web Developer!" style="text-decoration: none; color: #fff;">Designed by <span style="font-size: 13px; font-weight: 550;"><u>Arif Fakhrullah</u></span></a></h6>
                 <div class="text-center center-block">
                     <img src="assets/logo/logo%20original.png" width="100px;">
                 </div>

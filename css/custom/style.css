@@ -1,4 +1,11 @@
-/*  #657ab3; blue automac*/
+/* For future code who opened this css file 
+
+Sorry if this CSS is a bit tedious, as this project is based on my first independant completed project that never took off in Dec2018
+
+You can reach me through my email address (Ariffakhrullah31@gmail.com) or +673 8876629 if you need my service. Thank you.
+---------------------------------------------
+
+AUTOMAC Blue HEX color : #657ab3 */
 
 body::-webkit-scrollbar {
     width: 0.7rem;
@@ -17,7 +24,6 @@ body::-webkit-scrollbar-thumb {
 body {
     font-family: 'Poppins', sans-serif;
      background-color: #ededed; 
-/*   background-color: #0f0f0f;*/
     font-weight: 300;
     min-height: 100%;
     display: grid;
@@ -43,27 +49,12 @@ body, html {
 }
 
 .navbar-brand {
-    color: #c6a903;
+    color: #ffffff;
     transition: all .4s ease;
 }
 
 .navbar-brand:hover {
-    color: #c6a903;
-}
-
-.navbar-brand-admin {
-    color: #c6a903;
-}
-
-.navbar-brand-admin span {
-    font-size: 1.5rem;
-    font-weight: 100;
-    transition: all 2s ease;
-}
-
-.navbar-brand-admin span,
-.navbar-brand-admin a{
-    text-decoration: none !important;
+    color: #657ab3;
 }
 
 .purpose {
@@ -616,4 +607,10 @@ a.shop-div:hover{
 .clothing-item h3 {
     margin-top: 15%;
 }
+
+
+.list-group {
+    
+}
+
 

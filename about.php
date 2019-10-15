@@ -27,10 +27,12 @@
                               </p>
                               <br>
                               <dt class="col-sm-2">Tel</dt>
-                              <p class="col-sm-10">+673 - 3348132(KB) / +673 - 2232265(BSB)</p>
+                              <p class="col-sm-10">+673 3348132 (KB) <span class="text-muted align-top" style="font-size: 12px;">*for menpower only</span> 
+                                               <br>+673 2232265 (BSB)</p>
                               <br> 
                               <dt class="col-sm-2">Fax</dt>
-                              <p class="col-sm-10">+673 - 3347190(KB) / +673 - 2232265(BSB)</p>
+                              <p class="col-sm-10">+673 3347190 (KB) 
+                                               <br>+673 2232265 (BSB)</p>
                               <br> 
                               <dt class="col-sm-2">Email</dt>
                               <p class="col-sm-10"><a href="mailto:automac@adinin">automac@adinin.com</a></p>

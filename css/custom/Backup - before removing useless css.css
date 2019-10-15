@@ -79,7 +79,11 @@ body, html {
 /*    letter-spacing: 0.5px;*/
     word-spacing: 1px;
     line-height: 3rem;
-    text-align: justify;
+/*    text-align: justify;*/
+}
+
+.purpose p {
+/*    text-align: justify;*/
 }
 
 #header__blue{
