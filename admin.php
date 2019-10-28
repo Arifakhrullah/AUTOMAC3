@@ -1,5 +1,5 @@
 <?php require("header.php");?>
-<div class="container wow fadeInUp" style="padding-top: 30px;">
+<div class="container" style="padding-top: 30px;">
     <?php 
         if(!isset($_GET['admin']) || !isset($_SESSION['user_name'])){
             echo '<div class="row">

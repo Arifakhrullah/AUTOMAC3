@@ -1,4 +1,3 @@
-
         <h4 class="text-center">Admin login</h4>
         <p class="text-center">Please enter your username and password</p>
         <form method="POST">
@@ -38,7 +37,4 @@
                     echo "<br><div class='alert alert-danger'>Please enter a username</div>";
                 }
             }
-
-
-
         ?>

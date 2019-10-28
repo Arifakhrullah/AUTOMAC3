@@ -27,7 +27,7 @@
                               </p>
                               <br>
                               <dt class="col-sm-2">Tel</dt>
-                              <p class="col-sm-10">+673 3348132 (KB) <span class="text-muted align-top" style="font-size: 12px;">*for menpower only</span> 
+                              <p class="col-sm-10">+673 3348132 (KB) <span class="text-muted align-top" style="font-size: 12px;">*for manpower only</span> 
                                                <br>+673 2232265 (BSB)</p>
                               <br> 
                               <dt class="col-sm-2">Fax</dt>

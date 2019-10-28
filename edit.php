@@ -123,7 +123,7 @@
                             }
                         ?>
                     </select>
-                    <p style="color: #c92929;">*Select <b><u><?php echo $service['service_name'];?></u></b> again if unchanged.</p>
+                    <p style="color: #c92929;">*Please select again if unchanged.</p>
                     </div>
                 </div>
                     <div class="form-group">

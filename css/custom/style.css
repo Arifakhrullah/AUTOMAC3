@@ -43,11 +43,6 @@ body, html {
     border: 0.9px solid #000000;
 }
 
-.gold-line {
-    background-color: #c6a903;
-    border: 0.9px solid #c6a903;
-}
-
 .navbar-brand {
     color: #ffffff;
     transition: all .4s ease;
@@ -88,7 +83,9 @@ body, html {
 nav {
     padding-top: 16px;
     padding-bottom: 15px;
-    background-color: #070707;
+    background-color: #657ab3;
+    padding-left: 10px;
+/*    background-color: #070707;*/
     justify-content: center;
 }
 
@@ -109,7 +106,7 @@ nav {
 
 #navbar a:hover {
     background-color: transparent;
-    color: #657ab3;
+    color: #ffffff;
 }
 
 .dropdown-menu {
@@ -130,8 +127,8 @@ nav {
       height: 2px;
       bottom: 0;
       left: 0;
-      background-color: #657ab3;
-/*      background-color: #c6a903;*/
+/*      background-color: #657ab3;*/
+      background-color: #ffffff;
       visibility: hidden;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
@@ -177,7 +174,7 @@ nav {
 /*Navigation Shrink*/
 nav.shrink {
     background-color: rgba(49, 63, 101, 0.91);
-    height: 60px;
+    height: 65px;
     padding-top: 0;
     padding-bottom: 5px;
     transition: all .7s ease-out;
@@ -274,7 +271,19 @@ div[id="heading"] h1{
 .clothing-label > p {
     font-weight: 200;
     font-size: 1.45rem;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.2rem;
+    margin-right: 1%;
+}
+
+.services:hover {
+    box-shadow: 0 0 2px gray;
+    transition: 0.3s ease-in-out;
+}
+
+.service-label > p {
+    font-weight: 200;
+    font-size: 1.45rem;
+    letter-spacing: 0.1rem;
     margin-right: 1%;
 }
 

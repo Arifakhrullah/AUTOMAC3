@@ -92,7 +92,7 @@ Feel free to look around our products and services we offer, thank you!
                 <?php
                     if(!isset($_GET['admin']) || !isset($_SESSION['user_name'])){
                         echo '<a class="navbar-brand" id="logo" style="padding: 0;" href="index.php">
-                                    <img class="img-responsive" style="height: 3.5em; margin: 0;" src="assets/logo/logo.png"></a>';
+                                    <img class="img-responsive" style="height: 3.5em; margin: 0;" src="assets/logo/logo-noninverse.png"></a>';
                     } else {
                         echo '<a class="navbar-brand" id="logo" style="padding: 0;" href="index.php">
                                 <img class="img-responsive" style="height: 3.5em; margin-right: 15px;" src="assets/logo/logo.png">

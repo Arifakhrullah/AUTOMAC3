@@ -13,16 +13,14 @@
                         $num_rows = mysqli_num_rows($run_query);
                     
                         foreach($run_query as $service){
-                            echo '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-                                    <a href="product_brands.php?id='.$service['service_nameShort'].'">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img src="assets/img/services/'.$service['service_img'].'" class="card-img-top img-responsive" alt="..." style="width: 100%;">
-                                                <p class="card-text text-center">'.$service['service_name'].'</p>
-                                            </div>
+                            echo '<a href="product_brands.php?id='.$service['service_nameShort'].'">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow fadeInUp services" style="height: 290px; padding: 10px;">
+                                    <img class="img-responsive" src="assets/img/services/'.$service['service_img'].'" style="width: 100%; padding-bottom: 10px;" alt="image unavailable" />
+                                       <div class="service-label">
+                                          <p>'.$service['service_name'].'</p>
                                         </div>
-                                    </a>
-                                </div>';
+                                    </div>
+                                  </a>';
                         }
                     
                     ?>

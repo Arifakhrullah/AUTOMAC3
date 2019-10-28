@@ -5,6 +5,11 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -20,6 +25,15 @@
       </div>
       <div class="item">
         <img src="assets/banner/Comnet.png" alt="Mikrotik" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="assets/banner/xray.png" alt="Xray" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="assets/banner/indigo.png" alt="IndigoVision" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="assets/banner/rapidcctv.png" alt="CCTV" style="width:100%;">
       </div>
     </div>
 
