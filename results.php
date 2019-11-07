@@ -1,11 +1,9 @@
 <?php include("header.php"); ?>
 <div class="container text__black wow fadeInUp" style="padding-top: 20px;">
+    
     <?php
         if(isset($_GET['query'])){
             $search = $_GET['query'];
-            
-//            $query = "SELECT p.* FROM categories AS c INNER JOIN products AS p ON c.category_id = p.product_category WHERE p.product_name LIKE '%$search%' OR c.category_name = '%$search%' ORDER BY p.product_id";
-            
             
             $query = "SELECT * FROM products AS p INNER JOIN services AS s ON p.product_serviceCategory=s.service_nameShort WHERE p.product_name LIKE '%$search%' OR p.product_serviceCategory LIKE '%$search%' OR s.service_nameShort = '%$search%'";
             
@@ -36,21 +34,34 @@
                         ';
 
             }
-            
+            echo '<div class="clothing-item" style="padding-top: 7%;">
+                            <div class="row">';
             foreach($run_query as $product){
                 echo '
-                <a href="product.php?id='.$product['product_id'].'" class="text__black">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6  wow fadeInUp item '.$product['product_serviceCategory'].'">
-                    <img class="img-responsive" src="assets/img/services/CCTV.png" style="width: 100%;" alt="image unavailable" />
-                       <div class="clothing-label">
-                          <p class="text-muted">'.$product['product_brand'].'</p>
-                          <h5>'.$product['product_name'].'</h5>
-                          <p>Model #'.$product['product_model'].'</p>
-                        </div>
+                    <div class="col-lg-6 wow fadeIn item '.$product['product_id'].'" data-wow-delay="0.2s">
+                    
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="img-responsive" src="assets/img/products/'.$product['product_image'].'" style="width: 100%;" alt="image unavailable" />
+                            </div>
+                            <div class="col-md-7" style="padding-bottom: 15%; padding-right: 5%;">
+                                <div class="clothing-label">
+                                  <p class="text-muted">'.$product['product_brand'].'</p>
+                                  <h5>'.$product['product_name'].'</h5>
+                                  <p>Model #'.$product['product_model'].'</p>
+
+                                  <h4 id="bottom" class="text-muted">
+                                    Price : '.$product['product_price'].'</div>
+                                  </h4>
+                            </div>
+                        </div>      
+                    
                     </div>
-                </a>
-                    ';
+                ';
             }
+        
+            echo '
+            </div></div>';
         }
         
     

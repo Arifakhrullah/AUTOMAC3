@@ -53,7 +53,7 @@
                                         $path = "assets/img/products/".$product['product_image'];
                                         unlink($path);
 
-                                        $query = "UPDATE products SET product_name='".$_POST['name']."', product_model='".$_POST['model']."', product_brand='".$_POST['brand']."', product_serviceCategory='".$_POST['service']."', product_image='".$file."' WHERE product_id=$id";
+                                        $query = "UPDATE products SET product_name='".$_POST['name']."', product_price='".$_POST['price']."', product_model='".$_POST['model']."', product_brand='".$_POST['brand']."', product_serviceCategory='".$_POST['service']."', product_image='".$file."' WHERE product_id=$id";
 
                                         if(mysqli_query($con, $query)){
                                             echo '<div class="alert alert-success">
@@ -71,7 +71,7 @@
                                 }
                         } else {
 
-                            $query = "UPDATE products SET product_name='".$_POST['name']."', product_model='".$_POST['model']."', product_brand='".$_POST['brand']."', product_serviceCategory='".$_POST['service']."' WHERE product_id=$id";
+                            $query = "UPDATE products SET product_name='".$_POST['name']."', product_price='".$_POST['price']."', product_model='".$_POST['model']."', product_brand='".$_POST['brand']."', product_serviceCategory='".$_POST['service']."' WHERE product_id=$id";
 
                             if(mysqli_query($con, $query)){
                                 echo '<div class="alert alert-success">
@@ -97,6 +97,12 @@
                         </div>
                     </div>
                     <div class="form-group">
+                        <label class="col-sm-2" for="name">Price</label>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="price" name="price" value="<?php echo $product['product_price']; ?>">
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label class="col-sm-2" for="price">Product Brand</label>
                         <div class="col-sm-6">
                           <input type="text" class="form-control" id="brand" name="brand" value="<?php echo $product['product_brand']; ?>">
@@ -110,12 +116,13 @@
                     </div>
                     <div class="form-group has-error">
                     <label class="col-sm-2" for="name">Service<span style="color: #c92929;">*</span></label>
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                     <select class="form-control" name="service" id="service">
                         <?php 
                             $query = "SELECT * FROM services";
                             $run_query = mysqli_query($con, $query);
-                        
+                            
+                            echo '<option value="uncategorized" selected>Please select one</option>';
                             foreach($run_query as $service){
                         ?>
                             <option value="<?php echo $service['service_nameShort'];?>"><?php echo $service['service_name'];?></option>
@@ -123,7 +130,20 @@
                             }
                         ?>
                     </select>
-                    <p style="color: #c92929;">*Please select again if unchanged.</p>
+                    <p style="color: #c92929;">*Please select again if unchanged.<br> 
+                        <?php 
+                        
+                        $name = $product['product_serviceCategory'];
+                        $query = "SELECT * FROM services WHERE service_nameShort='$name'";
+
+                        $run_query = mysqli_query($con, $query);
+                        
+                        foreach($run_query as $service){
+                            echo "<p class='text-muted'><b>Original :</b><br> ".$service['service_name']."</p>"; 
+                        }
+                        
+                        ?>     
+                    </p>
                     </div>
                 </div>
                     <div class="form-group">

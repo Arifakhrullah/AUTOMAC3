@@ -48,7 +48,7 @@
     </a>
   </div>
     <hr>
-    <div class="container wow fadeInUp" style="margin-left, margin-right: 30%;">
+    <div class="container wow fadeInUp" style="padding-left: 8%; padding-right: 8%;">
         <div class="row">
             <div class="col-md-9">
                 <div class="col-md-12 purpose">
@@ -121,7 +121,7 @@
             </div>
             <div class="col-md-3 visible-lg visible-md">
                 <ul class="list-group service-home">
-                <li class="list-group-item" style="background-color: #657ab3; font-size: 20px; color: #fff; width: 45%;">Services</li>
+                <li class="list-group-item" style="background-color: #657ab3; font-size: 17px; color: #fff; width: 48%;">Services</li>
                     <?php
                     $query = "SELECT * FROM services ORDER BY service_name";
                     $run_query = mysqli_query($con, $query) or die(mysqli_error($con));

@@ -1,5 +1,5 @@
 <?php include("header.php"); ?> 
-    <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;">
+    <div class="container wow fadeInUp" style="padding-left: 8%; padding-right: 8%;">
         <div class="row">
             <div class="col-md-12" id="service1" style="line-height: 2.5rem;">
                 <h1 id="header__black" class="text-center" style="padding-top: 40px;">Administration Details</h1>

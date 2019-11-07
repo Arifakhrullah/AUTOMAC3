@@ -16,9 +16,10 @@
                     if(isset($_POST['add'])){
                         $id = $_POST['id'];
                         $name = $_POST['name'];
+                        $price = $_POST['price'];
                         $service = $_POST['service'];
-                        $model = $_POST['model'];
                         $brand = $_POST['brand'];
+                        $model = $_POST['model'];
                         $file = $_FILES['file']['name'];
 
                         $allowed_ext = array("jpg","png","jpg","gif");
@@ -26,7 +27,8 @@
                         $ext = end($explode_ext);
 
                         if(($_FILES["file"]["type"] == "image/gif") 
-                            || ($_FILES["file"]["type"] == "image/jpeg") 
+                            || ($_FILES["file"]["type"] == "image/jpeg")
+                            || ($_FILES["file"]["type"] == "image/jpg")
                             || ($_FILES["file"]["type"] == "image/png") 
                             || ($_FILES["file"]["type"] == "image/gif")
                             && ($_FILES["file"]["size"] < 20000)
@@ -34,19 +36,40 @@
                                 if($_FILES["file"]["error"] > 0){
                                     echo "Return code: ".$_FILES["file"]["error"]."<br/>";
                                 } else {
-                                    if(file_exists("assets/img/products/".$file)){
+                                    if(file_exists("assets/img/services/".$file)){
                                         echo "<div class='alert alert-danger'>
                                                 <strong>".$_FILES["file"]["name"]." already exist. Please choose different image or filename.</strong>
                                             </div>";
                                     } else {
-                                        $query = "INSERT INTO products VALUES (NULL, '".$name."', '".$model."', '".$brand."', '".$service."', '".$file."')";
+                                        if($price==''){
+                                            $query = "INSERT INTO products VALUES (NULL, '".$name."', NULL, '".$model."', '".ucwords($brand)."', '".$service."', '".$file."')";
+                                        } else {
+                                            $query = "INSERT INTO products VALUES (NULL, '".$name."', '$".$price."', '".$model."', '".ucwords($brand)."', '".$service."', '".$file."')";
+                                        }
+                                        
 
                                         if(mysqli_query($con, $query)){
+                                            $query = "SELECT * FROM brands WHERE (brand_name='.$brand.' && brand_service='.$service.')";
+            
+                                            $run_query = mysqli_query($con, $query);
+
+                                            if ($run_query=mysqli_query($con,$query)){
+
+                                                $rowcount=mysqli_num_rows($run_query);
+                                                
+                                                if($rowcount == 0){
+                                                    $query = "INSERT INTO brands VALUES (NULL, '".ucwords($brand)."', '".$service."')";
+                                                    mysqli_query($con, $query);
+                                                } 
+                                            }
                                             echo("<script LANGUAGE='JavaScript'>
-                                                window.alert('Successfully added new product!');
+                                                window.alert('Successfully added new Product!');
                                                 window.location.href='admin.php?admin=1';
                                                 </script>");
                                             move_uploaded_file($_FILES["file"]["tmp_name"],"assets/img/products/".$file);
+                                            
+                                            
+                                            
 
         //                                    echo $query;
                                         } else {
@@ -54,7 +77,7 @@
                                                 window.alert('Failed to add new product!');
                                                 window.location.href='admin.php?admin=1';
                                                 </script>");
-        //                                    echo $query;
+//                                            echo $query;
                                         }
                             }
                           }
@@ -70,6 +93,12 @@
                     <label class="col-sm-2" for="name">Name</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Name of product">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2" for="price">Price</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="price" name="price" placeholder="Price of product">
                     </div>
                 </div>
                 <div class="form-group">
@@ -156,7 +185,7 @@
         //                                    echo $query;
                                         } else {
                                             echo("<script LANGUAGE='JavaScript'>
-                                                window.alert('Failed to add new product!');
+                                                window.alert('Failed to add new Service!');
                                                 window.location.href='admin.php?admin=1';
                                                 </script>");
         //                                    echo $query;
