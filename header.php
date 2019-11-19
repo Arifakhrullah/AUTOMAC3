@@ -75,7 +75,7 @@ Feel free to look around our products and services we offer, thank you!
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top wow fadeInDown">
+    <nav class="navbar navbar-fixed-top wow fadeInDown" data-wow-delay="0.1s">
         <div class="container">
             <div class="navbar-header">
                 <button type="button"

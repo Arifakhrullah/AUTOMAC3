@@ -1,5 +1,5 @@
 <?php include("header.php"); ?> 
-  <div id="myCarousel" class="carousel slide wow fadeInDown" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide wow fadeInDown" data-wow-delay="0.1s" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -11,7 +11,6 @@
       <li data-target="#myCarousel" data-slide-to="6"></li>
       <li data-target="#myCarousel" data-slide-to="7"></li>
     </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item">

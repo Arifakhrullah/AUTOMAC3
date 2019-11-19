@@ -1,5 +1,5 @@
 <?php include("header.php"); ?> 
-    <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;">
+    <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;" data-wow-delay="0.1s">
         <div class="row" style="padding-top: 50px;">
             <div class="col-md-12" id="about" style="line-height: 3rem;">
                 <div class="col-md-4 visible-lg visible-md visible-sm wow bounceIn" data-wow-delay="0.8s">

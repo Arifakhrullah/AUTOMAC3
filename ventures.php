@@ -1,5 +1,5 @@
 <?php include("header.php"); ?> 
-    <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;">
+    <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;" data-wow-delay="0.1s">
         <div class="row">
             <div class="col-md-12" style="line-height: 3rem; padding-top: 40px;">
                 
