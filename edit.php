@@ -130,7 +130,7 @@
                             }
                         ?>
                     </select>
-                    <p style="color: #c92929;">*Please select again if unchanged.<br> 
+                    <p style="color: #c92929;">*Please select again even if unchanged.<br> 
                         <?php 
                         
                         $name = $product['product_serviceCategory'];
@@ -149,7 +149,7 @@
                     <div class="form-group">
                         <label class="col-sm-2" for="file">Current Image</label>
                         <div class="col-sm-6">
-                            <img src="assets/img/products/<?php echo $product['product_image']?>" class="img-responsive" style="width: 30rem;">
+                            <img src="assets/img/products/<?php echo $product['product_img']?>" class="img-responsive" style="width: 30rem;">
                         </div>
                     </div>
                     <div class="form-group">

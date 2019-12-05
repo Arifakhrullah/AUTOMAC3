@@ -178,7 +178,7 @@
                                         if(mysqli_query($con, $query)){
                                             echo("<script LANGUAGE='JavaScript'>
                                                 window.alert('Successfully added new Service!');
-                                                window.location.href='admin.php?admin=1';
+                                                window.location.href='admin_services.php?admin=1';
                                                 </script>");
                                             move_uploaded_file($_FILES["file"]["tmp_name"],"assets/img/services/".$file);
 
@@ -186,7 +186,7 @@
                                         } else {
                                             echo("<script LANGUAGE='JavaScript'>
                                                 window.alert('Failed to add new Service!');
-                                                window.location.href='admin.php?admin=1';
+                                                window.location.href='admin_services.php?admin=1';
                                                 </script>");
         //                                    echo $query;
                                         }

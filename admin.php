@@ -41,7 +41,7 @@
                                 <td>'.$product['product_name'].'</td>
                                 <td>'.$price.'</td>
                                 <td>'.$product['product_brand'].'<br><span class="text-muted">Model # '.$product['product_model'].'</span></td>
-                                <td><img src="assets/img/products/'.$product['product_image'].'" class="img-responsive cloth-img"></td>
+                                <td><img src="assets/img/products/'.$product['product_img'].'" class="img-responsive cloth-img"></td>
                                 <td>
                                     <a href="edit.php?admin=editProduct&id='.$product['product_id'].'" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span></a>
                                     <a data-target="#deleteProduct'.$product['product_id'].'" data-toggle="modal" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></a>
@@ -58,7 +58,7 @@
 
                                       <hr class="black-line">
                                       <p class="text-center">Preview</p>
-                                      <img src="assets/img/products/'.$product['product_image'].'" class="img-responsive" style="width: 40rem; margin: auto;">
+                                      <img src="assets/img/products/'.$product['product_img'].'" class="img-responsive" style="width: 40rem; margin: auto;">
                                     </div>
                                     <button class="btn btn-inverse" data-dismiss="modal" aria-hidden="true">No</button>
                                     <a href="delete.php?Serviceid='.$product['product_id'].'" class="btn btn-danger">Yes</a>

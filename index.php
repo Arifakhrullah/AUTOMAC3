@@ -1,4 +1,4 @@
-<?php include("header.php"); ?> 
+<?php include("header.php"); ?>   
   <div id="myCarousel" class="carousel slide wow fadeInDown" data-wow-delay="0.1s" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -50,6 +50,19 @@
     <div class="container wow fadeInUp" style="padding-left: 8%; padding-right: 8%;">
         <div class="row">
             <div class="col-md-9">
+              <!-- <div class="alert alert-info" style="border-radius: 0; color: #000;">
+                <button type="button" class="close" data-dismiss="alert"><b>&times;</b></button>
+                  <p><b>Message from Automac Multiresources:</b><br>
+                  Please contact xxxxxxxx for any queries regarding our services. Thank you for understanding.</p>
+              </div> -->
+              <!--This auto closes the alert-->
+              <!-- <script>
+                  window.setTimeout(function() {
+                      $(".alert").fadeTo(66000, 26000).slideUp(1600, function(){
+                          $(this).remove(); 
+                      });
+                  }, 4000);
+              </script> -->
                 <div class="col-md-12 purpose">
                     <h2 id="header__black" style="line-height: 24px;"><span style="color: #657ab3; font-size: 20px;">Automac Multiresources</span><br>OUR PURPOSE &amp; COMMITMENT</h2>
                     <p>Our mission is to provide quality products and services through exceptional customer service standards and to be recognized for our strong commitment to serve our customers with integrity, ethical standards, and continuous improvement.
@@ -122,7 +135,10 @@
                 <ul class="list-group service-home">
                 <li class="list-group-item" style="background-color: #657ab3; font-size: 17px; color: #fff; width: 48%;">Services</li>
                     <?php
-                    $query = "SELECT * FROM services ORDER BY service_name";
+                    // $query = "SELECT * FROM services ORDER BY service_name";
+                    $query = "SELECT *, CASE WHEN service_name LIKE 'Manpower%' THEN 0 ELSE 1 END AS Ordering
+                              FROM services 
+                              ORDER BY Ordering, service_name";
                     $run_query = mysqli_query($con, $query) or die(mysqli_error($con));
 
                     $num_rows = mysqli_num_rows($run_query);

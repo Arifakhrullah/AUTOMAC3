@@ -59,10 +59,10 @@
                                                 $price = $product['product_price'];
                                             }
                                             echo '
-                                                <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn item '.preg_replace('/\s+/', '', $product['product_brand']).'" data-wow-delay="0.1s">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 wow fadeIn item '.preg_replace('/\s+/', '', $product['product_brand']).'" data-wow-delay="0.2s">
                                                     <div class="row">
                                                         <div class="col-md-5 col-xs-5">
-                                                            <img class="img-responsive" src="assets/img/products/'.$product['product_image'].'" style="width: 100%;" alt="image unavailable" />
+                                                            <img class="img-responsive" src="assets/img/products/'.$product['product_img'].'" style="width: 100%;" alt="image unavailable" />
                                                         </div>
                                                         <div class="col-md-7 col-xs-5" style="padding-bottom: 15%; padding-right: 5%;">
                                                             <div class="clothing-label">

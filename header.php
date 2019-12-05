@@ -150,7 +150,7 @@ Feel free to look around our products and services we offer, thank you!
                     } else {
                         echo '<ul class="nav navbar-nav navbar-right">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="admin.php?admin=1">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="admin.php?admin=1">Products<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="admin_services.php?admin=1">Services</a>
