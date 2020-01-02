@@ -11,15 +11,8 @@ You can reach me through my email address Ariffakhrullah31@gmail.com or +673 887
 ------ Database ------
 ----------------------
 The website currently *stores* its data such as the Product name, brands, image name, etc 
-in the SQL database, which can be found /database/dbconfig.php file. 
+in the SQL database, which can be found ../database/ file. 
 
-----------------------
--- Ability to CRUD? --
-----------------------
-No, the website at its current state does not have any CRUD implemented as time were short during
-development. But there are data in the database, which were inserted MANUALLY in the phpmyadmin.
-
-Why? to make the coding shorter to DISPLAY all products and services to avoid repetition of coding (see services.php)
 
 ----------------------
 -- Homepage banners --
