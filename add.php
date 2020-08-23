@@ -96,9 +96,26 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2" for="price">Price</label>
+                    <label class="col-sm-2" for="price">Price </label>
+                    
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="price" name="price" placeholder="Price of product">
+                        <p>
+                            <input data-toggle="toggle" onclick="myFunction()" type="checkbox" value='1' or value='0' id='price_bool'> Do not state price for this product 
+                        </p>
+                        <div class="input-group">
+                            <span class="input-group-addon">$</span>
+                            <input type="text" class="form-control" id="price" name="price" value="" placeholder="Price of product">
+                        </div>
+                        
+                        <script>
+                            function myFunction() {
+                              if(document.getElementById("price").disabled === true){
+                                document.getElementById("price").disabled = false;
+                              } else {
+                                document.getElementById("price").disabled = true;
+                              };
+                            }
+                        </script>
                     </div>
                 </div>
                 <div class="form-group">
@@ -210,10 +227,14 @@
                     <label class="col-sm-2" for="name">Short Name (abbrv)</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="nameShort" name="nameShort" placeholder="Short name of the Service">
+                        <span style="font-size: 13px;" class="text-muted">Example: <br>
+                            Video Surveillance = "cctv" <br>
+                            Perimeter Intrusion Detection Systems = "pids" <br>
+                        </span>
                     </div>
                 </div>
                 <div class="form-group"> 
-                    <label class="col-sm-2" for="name">Sub Info (if any)</label>
+                    <label class="col-sm-2" for="name">Sub Info (optional)</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="info" name="info" placeholder="Sub Information">
                     </div>

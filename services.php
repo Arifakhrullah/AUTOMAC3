@@ -1,7 +1,7 @@
 <?php include("header.php"); ?> 
     <div class="container wow fadeInUp" style="padding-left: 10%; padding-right: 10%;">
         <div class="row">
-            <div class="col-md-12" id="service1" style="line-height: 3rem; padding-top: 40px;">
+            <div class="col-md-12" id="service1" style="line-height: 2.8rem; padding-top: 40px;">
                 <h1 id="header__black">Provision of Resource Services and Personnel Secondment</h1>
                 <p style="text-align: justify;">We have provided Brunei Shell Petroleum Co. Sdn. Bhd. some high-profile professionals such as Supply Chain Management Consultant, Petro physicists, Drilling Engineers/Consultants, Well Completion Engineers/Consultants, QA/QC Engineers, ME&amp;I Engineers, Instrument / Electrical / Oilfield Technicians, SAP-HR Consultants, Bruneian SAP Data Converters/Coders, SAP Application Developers, Bruneians Business Support Personnel, Quantity Surveyors, etc. We have a databank of Business Management Consultants, and in the technical field, Oil &amp; Gas Sub-Surface Specialists in Petrophysics, Geology, Petroleum Technology, Oil &amp; Gas Reservoir, etc., HSE, Drillers, Welding Inspectors, Painting Inspectors, QA/QC, NDT Inspectors, Abseiling Technicians, etc.
                     
@@ -46,7 +46,7 @@
 //                            echo '<a href="product_brands.php?id='.$service['service_nameShort'].'">
 //                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow fadeInUp">
 //                                    <img class="img-responsive" src="assets/img/services/'.$service['service_img'].'" style="width: 100%;" alt="image unavailable" />
-//                                       <div class="clothing-label">
+//                                       <div class="product-label">
 //                                          <p class="text-muted">'.$service['service_name'].'</p>
 //                                        </div>
 //                                    </div>

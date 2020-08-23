@@ -102,7 +102,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="row">
+                    <div class="col-md-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Provision of Specialist Resources</h4>
@@ -111,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">System Integration and Consultancy</h4>
@@ -120,13 +121,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Professional Resource Secondment</h4>
                                 <p class="card-text text-muted">Secondment of technical, professional and clerical personnel.</p>
                                 <a href="services.php#service1" class="card-link">Learn more</a>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -151,4 +153,5 @@
             </div>
         </div>
       </div>
+      
 <?php include("footer.php"); ?>

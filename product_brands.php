@@ -15,7 +15,7 @@
                 <div class="row text__black">
                     <div class="col-md-12" style="margin-left: 2.5rem; margin-right: 2.5rem; padding-left: 0;">
                         
-                        <div class="clothing-menu">
+                        <div class="product-menu">
                             <ul>
                                 <li class="active" data-filter="*">All Product</li>
                                 <?php
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="clothing-item">
+                        <div class="product-item">
                             <div class="row">
                                 <?php
                                     $query = "SELECT * FROM products WHERE product_serviceCategory='$get_id'";
@@ -65,7 +65,7 @@
                                                             <img class="img-responsive" src="assets/img/products/'.$product['product_img'].'" style="width: 100%;" alt="image unavailable" />
                                                         </div>
                                                         <div class="col-md-7 col-xs-5" style="padding-bottom: 15%; padding-right: 5%;">
-                                                            <div class="clothing-label">
+                                                            <div class="product-label">
                                                               <p class="text-muted">'.$product['product_brand'].'</p>
                                                               <h5>'.$product['product_name'].'</h5>
                                                               <p>Model #'.$product['product_model'].'</p>
@@ -93,4 +93,5 @@
             </div>
             
       </div>
+        
 <?php include("footer.php"); ?>

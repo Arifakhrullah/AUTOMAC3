@@ -115,37 +115,37 @@
                         </div>
                     </div>
                     <div class="form-group has-error">
-                    <label class="col-sm-2" for="name">Service<span style="color: #c92929;">*</span></label>
-                    <div class="col-sm-4">
-                    <select class="form-control" name="service" id="service">
-                        <?php 
-                            $query = "SELECT * FROM services";
-                            $run_query = mysqli_query($con, $query);
-                            
-                            echo '<option value="uncategorized" selected>Please select one</option>';
-                            foreach($run_query as $service){
-                        ?>
-                            <option value="<?php echo $service['service_nameShort'];?>"><?php echo $service['service_name'];?></option>
-                        <?php
-                            }
-                        ?>
-                    </select>
-                    <p style="color: #c92929;">*Please select again even if unchanged.<br> 
-                        <?php 
-                        
-                        $name = $product['product_serviceCategory'];
-                        $query = "SELECT * FROM services WHERE service_nameShort='$name'";
+                        <label class="col-sm-2" for="name">Service<span style="color: #c92929;">*</span></label>
+                        <div class="col-sm-4">
+                        <select class="form-control" name="service" id="service">
+                            <?php 
+                                $query = "SELECT * FROM services";
+                                $run_query = mysqli_query($con, $query);
 
-                        $run_query = mysqli_query($con, $query);
-                        
-                        foreach($run_query as $service){
-                            echo "<p class='text-muted'><b>Original :</b><br> ".$service['service_name']."</p>"; 
-                        }
-                        
-                        ?>     
-                    </p>
+                                echo '<option value="uncategorized" selected>Please select one</option>';
+                                foreach($run_query as $service){
+                            ?>
+                                <option value="<?php echo $service['service_nameShort'];?>"><?php echo $service['service_name'];?></option>
+                            <?php
+                                }
+                            ?>
+                        </select>
+                        <p style="color: #c92929;">*Please select again even if unchanged.<br> 
+                            <?php 
+
+                            $name = $product['product_serviceCategory'];
+                            $query = "SELECT * FROM services WHERE service_nameShort='$name'";
+
+                            $run_query = mysqli_query($con, $query);
+
+                            foreach($run_query as $service){
+                                echo "<p class='text-muted'><b>Original :</b><br> ".$service['service_name']."</p>"; 
+                            }
+
+                            ?>     
+                        </p>
+                        </div>
                     </div>
-                </div>
                     <div class="form-group">
                         <label class="col-sm-2" for="file">Current Image</label>
                         <div class="col-sm-6">

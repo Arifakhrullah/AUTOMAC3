@@ -30,7 +30,7 @@
                     foreach($run_query as $service){
 
                     echo '
-                        <tr class="clothing-table">
+                        <tr class="product-table">
                                 <td>'.$service['service_id'].'</td>
                                 <td>'.$service['service_name'].'</td>
                                 <td>'.$service['service_nameShort'].'</td>

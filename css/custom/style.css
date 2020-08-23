@@ -1,6 +1,6 @@
 /* For future code who opened this css file 
 
-Sorry if this CSS is a bit tedious, as this project is based on my first independant completed project that never took off in Dec2018
+Sorry if this CSS is a bit tedious
 
 You can reach me through my email address (Ariffakhrullah31@gmail.com) or +673 8876629 if you need my service. Thank you.
 ---------------------------------------------
@@ -22,9 +22,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-     background-color: #ededed; 
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-family: 'Lato', sans-serif;*/
+    font-family: 'PT Serif', serif;
+    background-color: #ededed; 
     font-weight: 300;
+    font-size: 1.8rem;
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -139,7 +142,7 @@ nav {
 /*what happens after hovering original form*/
 .nav-item > a:hover::before {
       visibility: visible;
-      -webkit-transform: scaleX(1);
+      -webkit-transform: scale X(1);
       transform: scaleX(1);
 }
 
@@ -193,7 +196,6 @@ nav.shrink a.navbar-brand-admin {
     color: #fff;
 }
 
-
 nav.shrink a.navbar-brand-admin span {
     opacity: 0;
 }
@@ -216,12 +218,12 @@ div[id="heading"] h1{
 
 
 /*Alignment Sorting Labels*/
-.clothing-menu ul{
+.product-menu ul{
     padding: 0;
     vertical-align: middle;
 }
 
-.clothing-menu li{
+.product-menu li{
     display: inline-block;
     margin-right: 5px;
     margin-left: 0;
@@ -236,7 +238,7 @@ div[id="heading"] h1{
 
 }
 
-.clothing-menu .active {
+.product-menu .active {
     color: #ffffff;
     background-color: #657ab3;
     border-radius: 20px;
@@ -262,28 +264,42 @@ div[id="heading"] h1{
 }
 */
 
-.clothing-label {
+.product-label {
     padding-top: 0.6rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
 }
 
-.clothing-label h5 {
+.product-label h5 {
     font-weight: 800;
     font-size: 1.85rem;
     letter-spacing: 0.15rem;
 }
 
-.clothing-label > p {
+.product-label > p {
     font-weight: 200;
     font-size: 1.45rem;
     letter-spacing: 0.2rem;
     margin-right: 1%;
 }
 
+.administration {
+    margin-top: 20px;
+}
+
+.administration .col-md-9 {
+    background-color: #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.services {
+    min-height: 300px;
+    margin-bottom: 10px;
+}
 .services:hover {
-    box-shadow: 0 0 2px gray;
-    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 2px #7e7e7e;
+    background-color: #b1b1b1;
+    transition: 0.3s ease;
 }
 
 .service-label > p {
@@ -298,7 +314,7 @@ div[id="heading"] h1{
     height: 100%;
 }
 
-.clothing-item .item img-responsive {
+.product-item .item img-responsive {
     object-fit: cover;
 }
 
@@ -318,7 +334,7 @@ div[id="heading"] h1{
     margin-top: 5px;
     height: 40px;
     background-color: #ffffff;
-    border-radius: 10px;
+/*    border-radius: 10px;*/
     padding: 10px;
 }
 
@@ -352,7 +368,7 @@ nav.shrink .search_input{
     width: 20px;
     float: right;
     display: flex;
-    justify-content: center;
+/*    justify-content: center;*/
     align-items: center;
     border-radius: 50%;
     color:#000000;
@@ -410,17 +426,17 @@ nav.shrink .search_icon {
 
 /* Admin Page */
 
-.clothing-table td {
+.product-table td {
 /*    text-align:center;*/
 /*    word-break:break-all;*/
 }
 
-.clothing-table td img.cloth-img {
+.product-table td img.cloth-img {
     width: 10rem;
     transition: all 1.5s ease;
 }
 
-.clothing-table td img.cloth-img:hover {
+.product-table td img.cloth-img:hover {
     width: 20rem;
 }
 
@@ -470,6 +486,48 @@ a.shop-div:hover{
     color: #ffffff;
 }
 
+.wrimagecard{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.wrimagecard .fa{
+	position: relative;
+    font-size: 70px;
+}
+
+.wrimagecard-topimage_header{
+padding: 20px;
+}
+ 
+a.wrimagecard:hover, .wrimagecard-topimage:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+    padding: 20px 24px;
+    height: 80px;
+    padding-bottom: 0.75rem;
+    position: relative;
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #525c65;
+    transition: color 0.3s ease;
+}
+
 @media only screen
     and (max-width:768px)
     and (min-width:320px){
@@ -488,14 +546,13 @@ a.shop-div:hover{
     }
 
     .navbar-brand {
-        opacity: 0;
+        opacity: 1;
     }
 
     nav.shrink .navbar-brand {
         opacity: 1;
         transition: all 1s ease;
     }
-
 
     .navbar-brand-admin {
         color: white;
@@ -524,18 +581,18 @@ a.shop-div:hover{
         font-weight: 800;
     }
 
-    .clothing-label {
+    .product-label {
         padding-top: 0.6rem;
         padding-bottom: 2rem;
         padding-left: 1rem;
     }
 
-    .clothing-label h5 {
+    .product-label h5 {
         font-weight: 800;
         font-size: 1.6rem;
     }
 
-    .clothing-label p {
+    .product-label p {
         font-weight: 200;
         font-size: 1.05rem;
         letter-spacing: 0.25rem;
@@ -579,11 +636,14 @@ a.shop-div:hover{
     margin-top: 0 none;
 }
 
+.card-title {
+    font-weight: 900;
+}
+
 .card-body {
     box-shadow: 0 0 2px gray;
     padding: 1em 1.5em;
 }
-
 
 #service2 .card .card-body p{
     line-height: 2rem;
@@ -610,21 +670,21 @@ a.shop-div:hover{
     text-align: justify;
 }
 
-.clothing-item {
+.product-item {
     color: black;
 }
 
-.clothing-item .item {
+.product-item .item {
     padding: 20px;
 }
 
-.clothing-item .item:hover {
+.product-item .item:hover {
     background-color: rgba(0, 0, 0, 0.01);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.29);
     transition: all 0.5s ease;
 }
 
-.clothing-item h3 {
+.product-item h3 {
     margin-top: 15%;
 }
 

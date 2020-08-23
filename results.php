@@ -34,7 +34,7 @@
                         ';
 
             }
-            echo '<div class="clothing-item" style="padding-top: 7%;">
+            echo '<div class="product-item" style="padding-top: 7%;">
                             <div class="row">';
             foreach($run_query as $product){
                 echo '
@@ -45,7 +45,7 @@
                                 <img class="img-responsive" src="assets/img/products/'.$product['product_img'].'" style="width: 100%;" alt="image unavailable" />
                             </div>
                             <div class="col-md-7 col-xs-7" style="padding-bottom: 15%; padding-right: 5%;">
-                                <div class="clothing-label">
+                                <div class="product-label">
                                   <p class="text-muted">'.$product['product_brand'].'</p>
                                   <h5>'.$product['product_name'].'</h5>
                                   <p>Model #'.$product['product_model'].'</p>

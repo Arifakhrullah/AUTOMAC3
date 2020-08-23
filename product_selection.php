@@ -6,8 +6,12 @@
                 <p style="text-align: justify; line-height: 3rem;"><b>AMSB</b> provides products and services in Electronic Security Systems (ESS) including but not limited to security consultancy, design, supply, installation and maintenance for:
                 </p>
                 <div class="container-fluid">
+                    <div class="row">
                     <?php
-                        $query = "SELECT * FROM services ORDER BY service_id";
+                        $query = "SELECT *, CASE WHEN service_name LIKE 'Manpower%' THEN 0 ELSE 1 END AS Ordering
+                              FROM services 
+                              ORDER BY Ordering, service_name";
+//                        $query = "SELECT * FROM services ORDER BY service_id";
                         $run_query = mysqli_query($con, $query) or die(mysqli_error($con));
 
                         $num_rows = mysqli_num_rows($run_query);
@@ -15,16 +19,19 @@
                         foreach($run_query as $service){
                             echo '<a href="product_brands.php?id='.$service['service_nameShort'].'">
                                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow fadeInUp services" style="height: 290px; padding: 10px;">
-                                    <img class="img-responsive" src="assets/img/services/'.$service['service_img'].'" style="width: 100%; padding-bottom: 10px;" alt="image unavailable" />
-                                       <div class="service-label">
-                                          <p>'.$service['service_name'].'</p>
+                                        <img class="img-responsive" src="assets/img/services/'.$service['service_img'].'" style="width: 100%; padding-bottom: 10px;" alt="image unavailable" />
+                                           <div class="service-label">
+                                              <p>'.$service['service_name'].'</p>
+                                           </div>
                                         </div>
-                                    </div>
                                   </a>';
                         }
                     
                     ?>
+                    </div>
+
                 </div>
+                
                 <hr>
                 <div class="row">
                     <p style="text-align: justify; line-height: 3rem;">We have provided security solutions to several government facilities in Negara Brunei Darussalam, and an accredited vendor of the Internal Security Department of the Brunei Government.   

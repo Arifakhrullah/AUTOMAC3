@@ -36,12 +36,12 @@
                     }
                         
                     echo '
-                        <tr class="clothing-table">
+                        <tr class="product-table">
                                 <td>'.$product['product_id'].'</td>
                                 <td>'.$product['product_name'].'</td>
                                 <td>'.$price.'</td>
                                 <td>'.$product['product_brand'].'<br><span class="text-muted">Model # '.$product['product_model'].'</span></td>
-                                <td><img src="assets/img/products/'.$product['product_img'].'" class="img-responsive cloth-img"></td>
+                                <td><img src="assets/img/products/'.$product['product_img'].'" class="img-responsive cloth-img lazy"></td>
                                 <td>
                                     <a href="edit.php?admin=editProduct&id='.$product['product_id'].'" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span></a>
                                     <a data-target="#deleteProduct'.$product['product_id'].'" data-toggle="modal" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></a>
@@ -69,11 +69,15 @@
                     }
                 ?>
             </tbody>
+            <script>
+                $("img.lazy").lazyload({ threshold : 200 });
+            </script>
         </table>
     </div>
     <?php
         } 
     ?>
 </div>
+
     
 <?php require("footer.php");?>

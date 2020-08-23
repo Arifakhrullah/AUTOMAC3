@@ -347,12 +347,12 @@ font-family: 'Pacifico', cursive;
 }
 
 /*Alignment Sorting Labels*/
-.clothing-menu ul{
+.product-menu ul{
     padding: 0;
     vertical-align: middle;
 }
 
-.clothing-menu li{
+.product-menu li{
     display: inline-block;
     margin-right: 5px;
     margin-left: 0;
@@ -367,7 +367,7 @@ font-family: 'Pacifico', cursive;
 
 }
 
-.clothing-menu .active {
+.product-menu .active {
     color: #ffffff;
     background-color: #657ab3;
     border-radius: 20px;
@@ -389,19 +389,19 @@ font-family: 'Pacifico', cursive;
 }
 
 
-.clothing-label {
+.product-label {
     padding-top: 0.6rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
 }
 
-.clothing-label h5 {
+.product-label h5 {
     font-weight: 800;
     font-size: 1.85rem;
     letter-spacing: 0.15rem;
 }
 
-.clothing-label > p {
+.product-label > p {
     font-weight: 200;
     font-size: 1.45rem;
     letter-spacing: 0.25rem;
@@ -409,7 +409,7 @@ font-family: 'Pacifico', cursive;
 }
 
 /*
-.clothing-label p.category {
+.product-label p.category {
     color: #8d834c;
     letter-spacing: 0.1rem;
 }
@@ -420,7 +420,7 @@ font-family: 'Pacifico', cursive;
     height: 100%;
 }
 
-.clothing-item .item img-responsive {
+.product-item .item img-responsive {
     object-fit: cover;
 }
 
@@ -805,17 +805,17 @@ nav.shrink .search_icon {
 /*    border-radius: 10px;*/
 }
 
-.clothing-table td {
+.product-table td {
     text-align:center;
     word-break:break-all;
 }
 
-.clothing-table td img.cloth-img {
+.product-table td img.cloth-img {
     width: 10rem;
     transition: all 1.5s ease;
 }
 
-.clothing-table td img.cloth-img:hover {
+.product-table td img.cloth-img:hover {
     width: 20rem;
 }
 
@@ -1089,18 +1089,18 @@ a.shop-div:hover{
 */
     }
 
-    .clothing-label {
+    .product-label {
         padding-top: 0.6rem;
         padding-bottom: 2rem;
         padding-left: 1rem;
     }
 
-    .clothing-label h5 {
+    .product-label h5 {
         font-weight: 800;
         font-size: 1.6rem;
     }
 
-    .clothing-label p {
+    .product-label p {
         font-weight: 200;
         font-size: 1.05rem;
         letter-spacing: 0.25rem;
@@ -1158,7 +1158,7 @@ a.shop-div:hover{
 #product_selection .card,
 #service2 .card {
     margin-bottom: 1rem;
-    height: 23rem;
+    height: 20rem;
 }
 
 #service2 .card-body:hover {
@@ -1176,16 +1176,16 @@ a.shop-div:hover{
     text-align: justify;
 }
 
-.clothing-item {
+.product-item {
     color:  black;
 }
 
-.clothing-item .item:hover {
+.product-item .item:hover {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.29);
     transition: all 0.5s ease;
 }
 
-.clothing-item h3 {
+.product-item h3 {
     margin-top: 15%;
 }
 

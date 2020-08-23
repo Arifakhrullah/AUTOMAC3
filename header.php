@@ -14,7 +14,7 @@
 ?>
 <!---
 
-I see you have opened page source :) hello! 
+hello! 
 
 Welcome to AUTOMAC MULTIRESOURCES website. 
 Feel free to look around our products and services we offer, thank you!
@@ -59,6 +59,9 @@ Feel free to look around our products and services we offer, thank you!
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        
 
     <!-- FontAwesome  -->
         <!-- CDN -->
@@ -89,6 +92,7 @@ Feel free to look around our products and services we offer, thank you!
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                
                 <?php
                     if(!isset($_GET['admin']) || !isset($_SESSION['user_name'])){
                         echo '<a class="navbar-brand" id="logo" style="padding: 0;" href="index.php">
@@ -134,7 +138,7 @@ Feel free to look around our products and services we offer, thank you!
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item">
-                        <div class="searchbar visible-lg visible-md visible-sm">
+                        <div class="searchbar visible-lg visible-md visible-sm visible-xs">
                             <form action="results.php" method="GET" enctype="multipart/form-data">
                                 <input class="search_input" type="text" name="query" placeholder="I am looking for....">
                                 <a type="submit" name="search" class="search_icon"><i class="fas fa-search"></i></a>

@@ -1,14 +1,14 @@
 /*Sorting Function*/
-$('.clothing-item').isotope({
+$('.product-item').isotope({
     itemSelector: '.item',
     layoutMode: 'fitRows'
 });
-$('.clothing-menu ul li').click(function(){
-    $('.clothing-menu ul li').removeClass('active');
+$('.product-menu ul li').click(function(){
+    $('.product-menu ul li').removeClass('active');
     $(this).addClass('active');
 
     var selector = $(this).attr('data-filter');
-    $('.clothing-item').isotope({
+    $('.product-item').isotope({
         filter: selector
     });
     return false;

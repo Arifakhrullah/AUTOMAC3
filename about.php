@@ -6,12 +6,14 @@
                     <img src="assets/logo/logo%20original.png" class="img-responsive">
                 </div>
                 <div class="col-md-8">
-                    <h1 id="header__black" style="line-height: 25px; padding-top: 50px;">about<br><span style="color: #657ab3;">Automac Multiresources</span></h1>
-                    <p style="text-align: justify;"><b>Automac Multiresources Sdn. Bhd. (AMSB)</b> is a Bumiputra Company, acquired in 1983 with a humble beginning of providing blasting &amp; painting services in the oil &amp; gas sector, particularly in BLNG. AMSB is a member of <a href="http://www.adinin.com/home.php" target="_blank"><u>Adinin Group of Companies</u></a>.
-                    </p>
+                    <div class="row">
+                        <h1 id="header__black" style="line-height: 25px; padding-top: 50px;">about<br><span style="color: #657ab3;">Automac Multiresources</span></h1>
+                        <p style="text-align: justify;"><b>Automac Multiresources Sdn. Bhd. (AMSB)</b> is a Bumiputra Company, acquired in 1983 with a humble beginning of providing blasting &amp; painting services in the oil &amp; gas sector, particularly in BLNG. AMSB is a member of <a href="http://www.adinin.com/home.php" target="_blank"><u>Adinin Group of Companies</u></a>.
+                        </p>
+                    </div>
                     <hr>
                     <div class="row">
-                        <div class="col-md-12" id="contact" style="line-height: 3rem;">
+                        <div class="col-md-12"  id="contact" style="line-height: 3rem;">
                             <h1 id="header__black" style="line-height: 25px;">Contact us</h1>
                             <dl class="row" style="line-height: 20px;">
                               <dt class="col-sm-2">HEAD OFFICE</dt>
@@ -19,7 +21,7 @@
                               </p>
                               <br>    
                               <dt class="col-sm-2">ESS OFFICE</dt>
-                              <p class="col-sm-10">No. 4, Spg. 236, Kg. Katok Tungku,<br>Gadong, BE2319<br>Bandar Seri Begawan<br>Negara Brunei Darussalam
+                              <p class="col-sm-10">No. 14, Jalan Datu Mahawangsa<br>Kg. Lambak Berakas, BB1714<br>Bandar Seri Begawan<br>Negara Brunei Darussalam
                               </p>
                               <br>  
                               <dt class="col-sm-2">POSTAL ADDRESS</dt>
@@ -35,7 +37,7 @@
                                                <br>+673 2232265 (BSB)</p>
                               <br> 
                               <dt class="col-sm-2">Email</dt>
-                              <p class="col-sm-10"><a href="mailto:automac@adinin">automac@adinin.com</a></p>
+                              <p class="col-sm-10"><a href="mailto:info@automac-multiresources.com">info@automac-multiresources.com</a></p>
                             </dl>  
                         </div>
                     </div>
